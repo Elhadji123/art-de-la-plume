@@ -15,7 +15,7 @@ const POULTRY = [
     desc: "Le poulet de cou nu (ou poule cou nu) est une race de volaille rustique originaire de Transylvanie (Roumanie) et très répandue à travers le monde.La caractéristique principale est son cou entièrement dépourvu de plumes, d'une couleur rouge vif qui s'intensifie sous l'action du soleil et avec la maturité sexuelle.C'est un oiseau de taille moyenne à grande. Le coq pèse généralement entre 3 et 3,5 kg, tandis que la poule pèse entre 2,5 et 3 kg.Réputée pour sa chair ferme, savoureuse et peu grasse. C'est l'une des races à deux fins (ponte et chair) les plus appréciées.",
     price: "2 500 F / kg",
     saleType: "kg",
-    image: "assets/cou-nu.png",
+    image: "cou-nu.png",
   },
   {
     id: "Perdrix",
@@ -25,7 +25,7 @@ const POULTRY = [
     desc: "La Brahma fauve (souvent appelée Brahma fauve herminée noir ou fauve herminée bleu) est une variante de couleur de la célèbre race de poule géante Brahma.C'est une race lourde et impressionnante. Le coq pèse entre 4 et 5 kg (pouvant dépasser 60 cm de hauteur) et la poule entre 3 et 4,5 kg.Le corps arbore une couleur fauve (brun doré / marron clair orangé). Chez la variété la plus répandue (fauve herminée noir), le camail (plumes du cou), le bout des ailes et la queue présentent des motifs noirs. couverts de plumes jusqu'aux doigts.",
     price: null,
     saleType: "age",
-    image: "assets/Perdrix.png",
+    image: "Perdrix.png",
   },
   {
     id: "sussex",
@@ -35,7 +35,7 @@ const POULTRY = [
     desc: "La Sussex est une poule de taille moyenne à grande, au corps rectangulaire, large et bien fourni. Ses têtes portent une crête simple rouge et des barbillons rouges bien développés. Ses pattes (tarses) sont claires, généralement de couleur chair ou blanc rosé;Excellente race mixte (pondeuse régulière d'œufs rosés et bonne volaille de chair).Le fond du plumage est acajou/brun rougeâtre, parsemé de taches noires terminées par une petite pointe blanche (motif pailleté ou mille-fleurs).",
     price: null,
     saleType: "age",
-    image: "assets/sussex.png",
+    image: "sussex.png",
   },
   {
     id: "hermine-noire",
@@ -45,7 +45,7 @@ const POULTRY = [
     desc: "La Brahma herminée noir (aussi appelée Brahma blanche herminée noir ou Brahma claire) est l'un des coloris traditionnels et les plus emblématiques de la race géante Brahma.Le corps est majoritairement d'un blanc pur et lumineux. Le camail (les plumes entourant le cou) ainsi que la queue et le bout des ailes portent des plumes noires bordées de blanc. C'est une volaille géante au port très haut, lourd et majestueux. Le coq peut atteindre de 4,5 à 5 kg (et mesurer plus de 60 à 70 cm de haut), tandis que la poule pèse généralement entre 3,5 et 4,5 kg.",
     price: null,
     saleType: "age",
-    image: "assets/hermine-noire.png",
+    image: "hermine-noire.png",
   },
   {
     id: "chair-industriel",
@@ -55,7 +55,7 @@ const POULTRY = [
     desc: "Le poulet de chair (ou poulet d'engraissement) désigne les souches de volailles sélectionnées spécifiquement pour la production rapide de viande tender et abondante.Corps compact, très trapu et extrêmement musclé, caractérisé par des poitrines larges et bien fournies ainsi que des cuisses épaisses.Croissance exceptionnellement rapide. Un poulet de chair atteint un poids de marché d'environ 1,5 à 2,5 kg en seulement 35 à 45 jours pour les souches rapides, et en 80 à 90 jours pour les souches fermières ou Label Rouge.Viande tendre, juteuse et abondante, idéale pour la découpe (blancs, cuisses) et le rôtissage.",
     price: "3500F / kg",
     saleType: "kg",
-    image: "assets/chair-industriel.png",
+    image: "chair-industriel.png",
   },
   {
     id: "wyandotte",
@@ -65,7 +65,7 @@ const POULTRY = [
     desc: "La Wyandotte est une race de poule polyvalente originaire des États-Unis, très appréciée pour sa beauté, sa rusticité et ses excellentes aptitudes à la fois pour la ponte et la chair.Corps très rond, trapu et compact, souvent comparé à un ballon ou un vallonnement élégant, avec une ligne du dos formant un creux en forme de « U ».Très dense, doux et fourni. La Wyandotte est célèbre pour ses magnifiques variétés de coloris, notamment le motif liseré comme la argentée à liseré noir ou dorée à liseré bleu, mais existe aussi en blanc, noir, rouge et columbia.Le coq pèse entre 3,2 et 3,8 kg, tandis que la poule pèse entre 2,5 et 3 kg. Il existe également une variante naine très répandue.",
     price: null,
     saleType: "age",
-    image: "assets/wyandotte.png",
+    image: "wyandotte.png",
   },
 ];
 
