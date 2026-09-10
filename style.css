@@ -128,14 +128,17 @@ p{margin:0 0 1em;}
 }
 .search-box{
   display:flex; align-items:center; gap:10px;
-  background:var(--cream); border:1.5px solid var(--wheat-deep);
-  border-radius:999px; padding:.7em 1.1em; flex:1 1 320px;
+  background:var(--cream); border:none;
+  border-radius:999px; padding:.8em 1.2em; flex:1 1 260px; max-width:420px;
   color:var(--ink-soft);
 }
-.search-box input{
-  border:none; background:none; outline:none; font-size:.95rem;
-  font-family:var(--font-body); color:var(--ink); flex:1;
+.search-box svg{color:var(--ink-soft); opacity:.7; flex:none;}
+.search-box input[type=text]{
+  border:none !important; background:none !important; outline:none;
+  font-size:.95rem; font-family:var(--font-body); color:var(--ink);
+  flex:1; padding:0; width:auto;
 }
+.search-box input::placeholder{color:var(--ink-soft); opacity:.75;}
 .filter-chips{display:flex; gap:8px; flex-wrap:wrap;}
 .chip{
   border:1.5px solid var(--wheat-deep); background:transparent;
